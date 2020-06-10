@@ -117,7 +117,7 @@ ERROR_STATUS Timer_Init(Timer_cfg_s* Timer_cfg){
 			/*interrupt*/
 			/**/
 		
-			#endif // NORMAL_MODE		
+			#endif // COMPARE_MODE		
 		
 		
 		break;
@@ -181,7 +181,7 @@ ERROR_STATUS Timer_Init(Timer_cfg_s* Timer_cfg){
 			}
 			/**/
 			
-			#endif // NORMAL_MODE
+			#endif // COMPARE_MODE
 			
 		
 		
