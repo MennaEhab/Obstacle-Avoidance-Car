@@ -149,7 +149,7 @@ ERROR_STATUS DIO_Write (uint8_t GPIO, uint8_t pins, uint8_t value)
 			PORTA_DATA |= pins;
 			break;
 		case GPIOB:
-			PORTB_DATA |= (PORTB_DATA & ~(pins) )| (value& pins);
+			PORTB_DATA |=  pins;
 			break;
 		case GPIOC:
 			PORTC_DATA |= pins;
